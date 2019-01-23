@@ -29,18 +29,18 @@ class KitchenTimer {
       }
     }, 1000);
   }
-    
-    setSeconds(seconds) {
-      this._remainingSeconds = seconds;
-    }
 
-    start() {
-      this._isRunning = true;
-    }
+  setSeconds(seconds) {
+    this._remainingSeconds = seconds;
+  }
 
-    stop() {
-      this._isRunning = false;
-    }
+  start() {
+    this._isRunning = true;
+  }
+
+  stop() {
+    this._isRunning = false;
+  }
 }
 
 
